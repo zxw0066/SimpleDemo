@@ -36,3 +36,4 @@ test-output/
 /autoFront/release.tpl
 diffex.sh
 
+/target/
