@@ -1,25 +1,25 @@
-╡н©╪нд╣╣ё╨
+Е▐┌Х─┐Ф√┤Ф║ёО╪ 
 https://www.cnblogs.com/turbosha/p/9970904.html
 
-к╣цВё╨
-	com.demo.sort.*ё╨еепР
-		1.дзеепРё╨ё╗дз╢Фжп╫Ьппё╘
-			1.1╠х╫оеепРё╨
-				1.1.1 ╡ЕхКеепРё╨
-					ж╠╫с╡ЕхК com.demo.sort.InsertSortTest
-					оё╤ШеепР com.demo.sort.ShellSortTest
+Х╞╢Ф≤▌О╪ 
+	com.demo.sort.*О╪ Ф▌▓Е╨▐
+		1.Е├┘Ф▌▓Е╨▐О╪ О╪┬Е├┘Е╜≤Д╦╜Х©⌡Х║▄О╪┴
+			1.1Ф╞■Х╬┐Ф▌▓Е╨▐О╪ 
+				1.1.1 Ф▐▓Е┘╔Ф▌▓Е╨▐О╪ 
+					Г⌡╢Ф▌╔Ф▐▓Е┘╔ com.demo.sort.InsertSortTest
+					Е╦▄Е╟■Ф▌▓Е╨▐ com.demo.sort.ShellSortTest
 					
-				1.1.2 я║тЯеепРё╨
-					╪Р╣╔я║тЯеепР com.demo.sort.SelectionSortTest
-					╤яеепР com.demo.sort.HeapSortTest
+				1.1.2 И─┴Ф▀╘Ф▌▓Е╨▐О╪ 
+					Г╝─Е█∙И─┴Ф▀╘Ф▌▓Е╨▐ com.demo.sort.SelectionSortTest
+					Е═├Ф▌▓Е╨▐ com.demo.sort.HeapSortTest
 					
-				1.1.3 ╫╩╩╩еепРё╨
-					ц╟ещеепР com.demo.sort.BubbleSortTest
-					©ЛкыеепР com.demo.sort.QuickSortTest
+				1.1.3 Д╨╓Ф█╒Ф▌▓Е╨▐О╪ 
+					Е├▓ФЁ║Ф▌▓Е╨▐ com.demo.sort.BubbleSortTest
+					Е©╚И─÷Ф▌▓Е╨▐ com.demo.sort.QuickSortTest
 					
-				1.1.4 ╧И╡╒еепР 
+				1.1.4 Е╫▓Е╧╤Ф▌▓Е╨▐ 
 				
-		2.мБеепРё╨ё╗╢еелжп╫Ьппё╘
+		2.Е╓√Ф▌▓Е╨▐О╪ О╪┬Гё│Г⌡≤Д╦╜Х©⌡Х║▄О╪┴
 		
-	com.demo.search.*ё╨╡Иур
-		кЁпР╡Иурё╩╤Ч╥ж╡Иурё╩ЛЁ╡╗дгфУ╡Иурё╩╥ж©И╡Иурё╩╡Еж╣╡Иурё╩
+	com.demo.search.*О╪ Ф÷╔Ф┴╬
+		И║╨Е╨▐Ф÷╔Ф┴╬О╪⌡Д╨▄Е┬├Ф÷╔Ф┴╬О╪⌡Ф√░ФЁ╒И┌ёЕ╔▒Ф÷╔Ф┴╬О╪⌡Е┬├Е²≈Ф÷╔Ф┴╬О╪⌡Ф▐▓Е─╪Ф÷╔Ф┴╬О╪⌡

@@ -1,16 +1,16 @@
-package com.test.sort;
+package com.sort;
 
 public class ShellTest {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 22, 66, 44, 11, 55, 88, 77, 99, 33 };
-		System.out.println("ÅÅÐòÇ°£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 		sort(arr);
 		System.out.println();
-		System.out.println("ÅÅÐòºó£º");
+		System.out.println("ï¿½ï¿½ï¿½ï¿½ï¿½");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}

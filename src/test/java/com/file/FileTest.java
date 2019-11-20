@@ -1,4 +1,4 @@
-package com.test.file;
+package com.file;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -11,10 +11,10 @@ public class FileTest {
 		String filePath = "C:\\Users\\zhaoxingwu\\Desktop\\1.txt";
 		String str = "abc123";
 		try {
-			// Ð´ÈëÎÄ¼þ£¨×·¼Ó·½Ê½£ºStandardOpenOption.APPEND£©
+			// Ð´ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½×·ï¿½Ó·ï¿½Ê½ï¿½ï¿½StandardOpenOption.APPENDï¿½ï¿½
 			Files.write(Paths.get(filePath), str.getBytes("UTF-8"), StandardOpenOption.APPEND);
 
-			// ¶ÁÈ¡ÎÄ¼þ
+			// ï¿½ï¿½È¡ï¿½Ä¼ï¿½
 			byte[] data = Files.readAllBytes(Paths.get(filePath));
 			System.out.println(new String(data, StandardCharsets.UTF_8));
 		} catch (Exception e) {
