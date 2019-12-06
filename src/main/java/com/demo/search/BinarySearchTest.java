@@ -1,7 +1,7 @@
 package com.demo.search;
 
 /**
- * ¶ş·Ö²éÕÒ Ç°ÌáÊı×é±ØĞëÓĞĞò Ê±¼ä¸´ÔÓ¶ÈÎªO(logn) kafkaÊ¹ÓÃ´ËËã·¨½øĞĞµ×²ã²éÑ¯
+ * ï¿½ï¿½ï¿½Ö²ï¿½ï¿½ï¿½ Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Ê±ï¿½ä¸´ï¿½Ó¶ï¿½ÎªO(logn) kafkaÊ¹ï¿½Ã´ï¿½ï¿½ã·¨ï¿½ï¿½ï¿½Ğµ×²ï¿½ï¿½Ñ¯
  * 
  * @author zhaoxingwu
  *
@@ -19,7 +19,6 @@ public class BinarySearchTest {
 		int low = 0;
 		int high = arr.length - 1;
 		while (low <= high) {
-			// ÓÒÒÆÒ»Î»£¬Ïàµ±ÓÚ³ıÒÔ2£¬µ«ÓÒÒÆµÄÔËËãËÙ¶È¸ü¿ì£»ÈôÊ¹ÓÃ(low+high)/2ÇóÖĞ¼äÎ»ÖÃÈİÒ×Òç³ö
 			int mid = low + ((high - low) >>> 1);
 			if (arr[mid] < value) {
 				low = mid + 1;
