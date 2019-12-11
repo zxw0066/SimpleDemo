@@ -12,9 +12,9 @@ public class InsertTest {
 
 	public static void sort(int[] arr) {
 		for (int i = 1; i < arr.length; i++) {
-			int j = 0;
 			int temp = arr[i];
-			for (j = i - 1; j >= 0 && temp < arr[j]; j--) {
+			int j = 0;
+			for (j = i -1 ; j >= 0 && temp < arr[j]; j--) {
 				arr[j + 1] = arr[j];
 			}
 			arr[j + 1] = temp;

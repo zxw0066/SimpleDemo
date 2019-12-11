@@ -1,22 +1,21 @@
 package com.demo.sort;
 
 /**
- * 冒泡排序
- * 时间复杂度： O(n2)
- * @author zhaoxingwu
+ * 鍐掓场鎺掑簭
+ * 绌洪棿锛歄(1)
+ * 鏃堕棿锛歄(n2)
+ * @author xingwuzhao
  *
  */
 public class BubbleSortTest {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 22, 66, 44, 11, 55, 88, 77, 99, 33 };
-		System.out.println("排序前：");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 		sort(arr);
 		System.out.println();
-		System.out.println("排序后：");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}

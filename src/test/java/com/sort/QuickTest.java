@@ -4,13 +4,11 @@ public class QuickTest {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 22, 66, 44, 11, 55, 88, 77, 99, 33 };
-		System.out.println("����ǰ��");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 		sort(arr, 0, arr.length - 1);
 		System.out.println();
-		System.out.println("�����");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
@@ -19,7 +17,6 @@ public class QuickTest {
 	public static void sort(int[] arr, int low, int high) {
 		if(low<high) {
 			int index = getIndex(arr, low, high);
-			
 			sort(arr, low, index - 1);
 			sort(arr, index + 1, high);
 		}

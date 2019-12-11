@@ -1,46 +1,41 @@
 package com.demo.sort;
 
 /**
- * ¿ìËÙÅÅĞò
- * Æ½¾ùÊ±¼ä¸´ÔÓ¶È£ºO(n*log2n)
- * @author zhaoxingwu
+ * å¿«é€Ÿæ’åº æ—¶é—´ï¼š ç©ºé—´ï¼š
+ * 
+ * @author xingwuzhao
  *
  */
 public class QuickSortTest {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 22, 66, 44, 11, 55, 88, 77, 99, 33 };
-		System.out.println("ÅÅĞòÇ°£º");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 		sort(arr, 0, arr.length - 1);
 		System.out.println();
-		System.out.println("ÅÅĞòºó£º");
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
 	}
 
 	public static void sort(int[] arr, int low, int high) {
-		if(low < high) {
+		if (low < high) {
 			int index = getIndex(arr, low, high);
-			// ·Ö±ğ¶Ô·Ö¸îµã×óÓÒÁ½¸öÊı¾İµİ¹éÅÅĞò
 			sort(arr, low, index - 1);
 			sort(arr, index + 1, high);
 		}
 	}
-	
+
 	public static int getIndex(int[] arr, int low, int high) {
 		int temp = arr[low];
-		while(low < high) {
-			// µ±¶ÓÎ²µÄÔªËØ´óÓÚµÈÓÚ»ù×¼Êı¾İÊ±,ÏòÇ°Å²¶¯highÖ¸Õë
-			while(low < high && temp <= arr[high]) {
+		while (low < high) {
+			while (low < high && temp <= arr[high]) {
 				high--;
 			}
 			arr[low] = arr[high];
-			// µ±¶ÓÊ×ÔªËØĞ¡ÓÚµÈÓÚtmpÊ±,ÏòÇ°Å²¶¯lowÖ¸Õë
-			while(low < high && temp >= arr[low]) {
+			while (low < high && temp >= arr[low]) {
 				low++;
 			}
 			arr[high] = arr[low];
