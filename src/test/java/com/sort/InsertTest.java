@@ -14,7 +14,7 @@ public class InsertTest {
 		for (int i = 1; i < arr.length; i++) {
 			int temp = arr[i];
 			int j = 0;
-			for (j = i -1 ; j >= 0 && temp < arr[j]; j--) {
+			for (j = i - 1; j >= 0 && temp < arr[j]; j--) {
 				arr[j + 1] = arr[j];
 			}
 			arr[j + 1] = temp;

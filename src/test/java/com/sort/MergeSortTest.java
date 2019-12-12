@@ -24,7 +24,7 @@ public class MergeSortTest {
 		merge(arr, start, mid, end);
 	}
 	
-	private static void merge(int[] arr, int start, int mid, int end) {
+	public static void merge(int[] arr, int start, int mid, int end) {
 		int[] temp = arr.clone();
 		int i = start;
 		int j = mid + 1;
@@ -42,9 +42,10 @@ public class MergeSortTest {
 		while(j <= end) {
 			temp[k++] = arr[j++];
 		}
-		for (i = 0;i<k;i++) {
-			arr[start + i] = temp[i];
+		for (i = 0; i < k; i++) {
+			arr[start +i] = temp[i];
 		}
 		temp = null;
 	}
+	
 }

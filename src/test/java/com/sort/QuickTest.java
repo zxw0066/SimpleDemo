@@ -14,28 +14,27 @@ public class QuickTest {
 		}
 	}
 
-	public static void sort(int[] arr, int low, int high) {
-		if(low<high) {
-			int index = getIndex(arr, low, high);
-			sort(arr, low, index - 1);
-			sort(arr, index + 1, high);
+	public static void sort(int[] arr, int start, int end) {
+		if(start <= end) {
+			int index = getIndex(arr, start, end);
+			sort(arr, start, index - 1);
+			sort(arr, index + 1, end);
 		}
 	}
 	
-	public static int getIndex(int[] arr, int low, int high) {
-		int temp = arr[low];
-		while(low <high) {
-			while (low < high && temp <= arr[high]) {
-				high--;
+	public static int getIndex(int[] arr, int start, int end) {
+		int temp = arr[start];
+		while(start < end) {
+			while(start <= end && temp <= arr[end]) {
+				end--;
 			}
-			arr[low] = arr[high];
-			while(low<high&& temp >= arr[low]) {
-				low++;
+			arr[start] = arr[end];
+			while(start <= end && temp >= arr[start]) {
+				start++;
 			}
-			arr[high]=arr[low];
+			arr[end] = arr[start];
 		}
-		arr[low] = temp;
-		return low;
-		
+		arr[start] = temp;
+		return start;
 	}
 }
