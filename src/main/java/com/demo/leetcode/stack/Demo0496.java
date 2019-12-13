@@ -3,7 +3,7 @@ package com.demo.leetcode.stack;
 import java.util.HashMap;
 import java.util.Stack;
 
-public class Demo496 {
+public class Demo0496 {
 
 	public static void main(String[] args) {
 		int[] nums1 = new int[]{4,1,2};

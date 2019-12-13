@@ -2,7 +2,7 @@ package com.demo.leetcode.stack;
 
 import java.util.Stack;
 
-public class Demo682 {
+public class Demo0682 {
 
 	public static void main(String[] args) {
 		String[] ops = new String[] {"5","2","C","D","+"};

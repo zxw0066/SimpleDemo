@@ -2,7 +2,7 @@ package com.demo.leetcode.stack;
 
 import java.util.Stack;
 
-public class Demo844 {
+public class Demo0844 {
 
 	public static void main(String[] args) {
 		String S = "xywrrmp";
