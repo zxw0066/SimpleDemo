@@ -13,10 +13,10 @@ public class BubbleTest {
 	public static void sort(int[] arr) {
 		for (int i = 0; i < arr.length; i++) {
 			int temp;
-			for (int j = i + 1; j < arr.length; j++) {
-				if(arr[j] < arr[i]) {
-					temp = arr[i];
-					arr[i] = arr[j];
+			for (int j = 0; j < arr.length - i - 1; j++) {
+				if (arr[j + 1] < arr[j]) {
+					temp = arr[j + 1];
+					arr[j + 1] = arr[j];
 					arr[j] = temp;
 				}
 			}

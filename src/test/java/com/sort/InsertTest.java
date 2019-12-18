@@ -12,8 +12,8 @@ public class InsertTest {
 
 	public static void sort(int[] arr) {
 		for (int i = 1; i < arr.length; i++) {
-			int temp = arr[i];
 			int j = 0;
+			int temp = arr[i];
 			for (j = i - 1; j >= 0 && temp < arr[j]; j--) {
 				arr[j + 1] = arr[j];
 			}

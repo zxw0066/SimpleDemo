@@ -4,11 +4,7 @@ public class MergeSortTest {
 
 	public static void main(String[] args) {
 		int[] arr = new int[] { 22, 66, 44, 11, 55, 88, 77, 99, 33 };
-		for (int i = 0; i < arr.length; i++) {
-			System.out.print(arr[i] + ",");
-		}
 		sort(arr, 0, arr.length-1);
-		System.out.println();
 		for (int i = 0; i < arr.length; i++) {
 			System.out.print(arr[i] + ",");
 		}
@@ -25,10 +21,10 @@ public class MergeSortTest {
 	}
 	
 	public static void merge(int[] arr, int start, int mid, int end) {
-		int[] temp = arr.clone();
 		int i = start;
 		int j = mid + 1;
 		int k = 0;
+		int[] temp = arr.clone();
 		while(i <= mid && j <= end) {
 			if(arr[i] < arr[j]) {
 				temp[k++] = arr[i++];
@@ -43,7 +39,7 @@ public class MergeSortTest {
 			temp[k++] = arr[j++];
 		}
 		for (i = 0; i < k; i++) {
-			arr[start +i] = temp[i];
+			arr[start + i] = temp[i];
 		}
 		temp = null;
 	}

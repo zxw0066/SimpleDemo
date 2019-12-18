@@ -1,11 +1,5 @@
 package com.demo.search;
 
-/**
- * ²åÈëËã·¨
- * 
- * @author zhaoxingwu
- *
- */
 public class InsertSearchTest {
 
 	public static void main(String[] args) {
